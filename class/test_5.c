@@ -16,7 +16,7 @@ int main()
         p3=(ip&l3);
         p3>>=8;
         p4=(ip&l4);
-        printf("address:%lu.%lu.%lu.%lu",p1,p2,p3,p4);
+        printf("address:%lu.%lu.%lu.%lu\n",p1,p2,p3,p4);
     }
     return 0;
 }
